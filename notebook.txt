@@ -1,0 +1,4 @@
+For add file to LOCAL repository: «git add <file>...» 
+For commit: git commit -m "Note"
+For download file to GitHub: git push
+For sync GitHub with my local repository: git pull (it refresh info, files and commits)  
