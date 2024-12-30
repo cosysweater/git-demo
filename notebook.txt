@@ -20,8 +20,7 @@ If I committed file:
 	git commit --amend -m "text" (for update commit)
 
 If I push on repository:
-	git revert <sha1>
-
+	git revert <sha1> (also I can revert the revert)
 
 			git reset
 If I committed file:
