@@ -20,5 +20,11 @@ If I committed file:
 	git commit --amend -m "text" (for update commit)
 
 
+			git reset
+If I committed file:
+	git rest --soft HEAD~ (it return me to commit stage)
+	git reset --mixed HEAD~ (mixed by default) (it return me to index stage)
+	git reset --hard HEAD~ 	(it return me to start stage, delete all unsync changes)
+	
 	
 	
