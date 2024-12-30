@@ -19,6 +19,9 @@ If I committed file:
 	git reset HEAD^^ or HEAD~2 (for undo commit)
 	git commit --amend -m "text" (for update commit)
 
+If I push on repository:
+	git revert <sha1>
+
 
 			git reset
 If I committed file:
