@@ -3,3 +3,16 @@ For commit: git commit -m "Note"
 For download file to GitHub: git push
 For sync GitHub with my local repository: git pull (it refresh info, files and commits)
 For open work space: git gui
+
+			How to undoing changes?
+
+If file in directory:
+	git checkout/restore file.txt (concrete file)
+	git checkout . ("." meaning all files)
+	git clean -xdf (delete untracked files(new files))
+
+If file indexed:
+	git restore --staged <file> or git reset HEAD <file>
+	git gui: clic on staged file (it will be unstaged)
+	
+	
