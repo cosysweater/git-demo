@@ -14,5 +14,11 @@ If file in directory:
 If file indexed:
 	git restore --staged <file> or git reset HEAD <file>
 	git gui: clic on staged file (it will be unstaged)
+
+If I committed file:
+	git reset HEAD^^ or HEAD~2 (for undo commit)
+	git commit --amend -m "text" (for update commit)
+
+
 	
 	
