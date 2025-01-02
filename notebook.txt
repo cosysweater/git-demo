@@ -45,8 +45,17 @@ fast forward merge:
 
 Non fast forward merge:
 	git merge name of branch - if I have any commits in main branch and branch from previous 	commits. It create new HEAD commit 
+			
+				conflicts
 
+If one file edited in different branches:
+	if merge two branches with conflict file, it create new commit like in non f.f merge, 		but I need finally edit this file for solve conflict
 	
-	
-	
+Also I can abort merge:
+	git merge --abort
+
+Also I can approved my changes or another:
+	git checkout --Xours(my changes) --Xtheirs(another changes)
+
+
 	
