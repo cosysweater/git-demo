@@ -57,7 +57,8 @@ Also I can abort merge:
 Also I can approved my changes or another:
 	git checkout --Xours(my changes) --Xtheirs(another changes)
 
-				rebase
+				cherry-pick
+This command can copy any commits at main branch to my branch
 
 
 	
