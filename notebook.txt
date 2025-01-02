@@ -23,14 +23,14 @@ If I push on repository:
 	git revert <sha1> (also I can revert the revert)
 
 
-			git reset
+				git RESET
 If I committed file:
 	git rest --soft HEAD~ (it return me to commit stage)
 	git reset --mixed HEAD~ (mixed by default) (it return me to index stage)
 	git reset --hard HEAD~ 	(it return me to start stage, delete all unsync changes)
 
 	
-			.gitignore
+				.gitignore
 
 It is home file, we can hide some files by enter name of file in it
 	*.log (hide all log files)
@@ -46,7 +46,7 @@ fast forward merge:
 Non fast forward merge:
 	git merge name of branch - if I have any commits in main branch and branch from previous 	commits. It create new HEAD commit 
 			
-				conflicts
+				COMFLICTS
 
 If one file edited in different branches:
 	if merge two branches with conflict file, it create new commit like in non f.f merge, 		but I need finally edit this file for solve conflict
@@ -60,7 +60,8 @@ Also I can approved my changes or another:
 				cherry-pick
 This command can copy any commits at main branch to my branch
 
-				tags
+
+				TAGS
 
 I can mark my commit:
 	git tag <name tag>
@@ -74,4 +75,18 @@ Push tags:
 Check it out;
 	git checkout <tag name>
 
-	
+				STASH
+
+Stash files if it unfinished:
+	git stash save "note"
+
+View stashes:
+	git stash list
+
+Bring them back:
+	git stash pop (and remove from stash)
+	git stash apply (leave in stash)
+
+Remove stash:
+	git stash drop (clear)
+
