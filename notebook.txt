@@ -22,11 +22,19 @@ If I committed file:
 If I push on repository:
 	git revert <sha1> (also I can revert the revert)
 
+
 			git reset
 If I committed file:
 	git rest --soft HEAD~ (it return me to commit stage)
 	git reset --mixed HEAD~ (mixed by default) (it return me to index stage)
 	git reset --hard HEAD~ 	(it return me to start stage, delete all unsync changes)
+
+	
+			.gitignore
+
+It is home file, we can hide some files by enter name of file in it
+	*.log (hide all log files)
+	
 	
 	
 	
