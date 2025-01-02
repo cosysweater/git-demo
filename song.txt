@@ -10,3 +10,7 @@ Add new coup in feature branch
 
 Test 1
 
+Test 2
+
+Test 3
+
