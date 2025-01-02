@@ -60,5 +60,18 @@ Also I can approved my changes or another:
 				cherry-pick
 This command can copy any commits at main branch to my branch
 
+				tags
+
+I can mark my commit:
+	git tag <name tag>
+
+View tags:
+	git tag -list
+
+Push tags:
+	git push --tags
+
+Check it out;
+	git checkout <tag name>
 
 	
