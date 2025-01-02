@@ -57,5 +57,7 @@ Also I can abort merge:
 Also I can approved my changes or another:
 	git checkout --Xours(my changes) --Xtheirs(another changes)
 
+				rebase
+
 
 	
