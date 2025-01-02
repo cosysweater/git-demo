@@ -34,6 +34,18 @@ If I committed file:
 
 It is home file, we can hide some files by enter name of file in it
 	*.log (hide all log files)
+
+			branch
+For branching:
+	git checkout -b name of branch (create and switch to new branch)
+	git switch name of branch (switch to branch)
+
+fast forward merge:
+	git merge name of branch - if i have merge from last commit, HEAD from main branch 		replace to HEAD of branch commit
+
+Non fast forward merge:
+	git merge name of branch - if I have any commits in main branch and branch from previous 	commits. It create new HEAD commit 
+
 	
 	
 	
