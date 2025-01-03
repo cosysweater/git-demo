@@ -97,3 +97,33 @@ git remote remove <name of remote>
 git remote add <name of remote> <url>
 git push (sync all commits from my project)
 
+				BRANCH STRATEGY
+
+Centralized strategy:
+		all developers work in main branch
+
+Faature-branch workflow:
+		feature branch from main and the merge it
+
+Gitflow:
+	all code in develop branch
+	fix in feature branch
+	code for client in main branch
+
+Integration manage workflow:
+	pull from blessed repository
+	push to public dev repository
+	only int. Manager can push to blessed repository
+
+Dictator and lieutenants:
+	dev pull from blessed
+	dev push to lieutenant
+	lieutenant push to dictator
+	dictator push to blessed 
+
+Forking workflow:
+	fork original repository (copy it)
+	dev some feature
+	pull request to orig developer
+	
+
