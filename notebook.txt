@@ -90,3 +90,10 @@ Bring them back:
 Remove stash:
 	git stash drop (clear)
 
+
+				REMOTE
+git remote -v (show all remotes)
+git remote remove <name of remote>
+git remote add <name of remote> <url>
+git push (sync all commits from my project)
+
